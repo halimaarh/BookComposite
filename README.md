@@ -7,7 +7,7 @@ GET /bookcomposite
 Description: Returns all books with their associated reviews and recommendations.
 
 🔹 Get Book Composite by ID
-GET /bookcomposite/{id}
+GET /bookcomposite/{bookId}
 
 Description: Returns one book's details with its reviews and recommendations.
 
