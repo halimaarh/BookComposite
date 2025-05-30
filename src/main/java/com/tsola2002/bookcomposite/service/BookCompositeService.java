@@ -34,7 +34,7 @@ public class BookCompositeService {
 
 
     public BookComposite getBookComposite(int bookId) {
-        String bookUrl = "http://localhost:8084/api/v1/books/" + bookId;
+        String bookUrl = "https://bookservice-a2qm.onrender.com/api/v1/books/" + bookId;
         String reviewUrl = "https://reviewservice-to9o.onrender.com/api/v1/reviews/" + bookId;
         String recommendationUrl = "https://recommendationservice-rlr1.onrender.com/api/v1/recommendations/" + bookId;
 
